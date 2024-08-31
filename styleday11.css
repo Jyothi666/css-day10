@@ -1,0 +1,76 @@
+.flex {
+    display: flex;
+    justify-content: center;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.md {
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 10px;
+    color :white;
+}
+.cd1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(lightcoral, rgb(71, 87, 3));
+    font-size: 20px;
+}
+.cd {
+    border: 1px dotted rgb(33, 10, 96);
+}
+.cd2 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(193, 165, 10), rgb(213, 92, 92));
+    font-size: 20px;
+}
+.cd3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(67, 73, 104), rgb(220, 240, 184));
+    font-size: 20px;
+}
+.cd4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(148, 246, 238), rgb(69, 232, 91));
+    font-size: 20px;
+}
+.cd5 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(203, 135, 235), rgb(9, 9, 249));
+    font-size: 20px;
+}
+.cd6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(235, 203, 135), rgb(100, 94, 17));
+    font-size: 20px;
+}
